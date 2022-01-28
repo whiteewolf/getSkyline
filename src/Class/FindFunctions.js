@@ -5,6 +5,7 @@ module.exports = class Find {
         this.maxHeight = 0;
     }
     findHeight(x) {
+        console.log('x = ' + x)
         for (let i = 0; i < skylines.length; i++) {
             if(x >= skylines[i][0] && x <= skylines[i][2]) {
                 // console.log(skylines[i]);
@@ -13,12 +14,11 @@ module.exports = class Find {
                     this.maxHeight = skylines[i][1];
             }
         }
+        console.log(this.maxHeight)
         return this.maxHeight;
     }
     findSkyline() {
-        console.log('before for')
         for(let i = 0; i < skylines; i++) {
-            console.log('after for')
             return skylines[i];
         }
     }

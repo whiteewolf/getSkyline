@@ -1,0 +1,19 @@
+{
+  "name": "getskyline",
+  "version": "1.0.0",
+  "description": "in development]",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whiteewolf/getSkyline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whiteewolf/getSkyline/issues"
+  },
+  "homepage": "https://github.com/whiteewolf/getSkyline#readme"
+}
